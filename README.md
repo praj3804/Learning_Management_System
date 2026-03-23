@@ -33,17 +33,19 @@ cd lms-project
 composer install
 cp .env.example .env
 php artisan key:generate
+```
 
 ## 🗄️ Database Setup
 
 ```bash
 php artisan migrate:fresh --seed
-
+```
 
 ##▶️ Run the Application
 
 ```bash
 php artisan serve
+```
 
 Visit: http://127.0.0.1:8000
 
